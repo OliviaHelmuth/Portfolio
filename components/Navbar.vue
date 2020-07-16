@@ -5,36 +5,23 @@
         <b-navbar-toggle target="nav-text-collapse"></b-navbar-toggle>
         <b-collapse id="nav-text-collapse" is-nav>
           <b-navbar-nav align="center">
-              <li class="nav-item">
-                <nuxt-link class="nav-link" to="/">Home</nuxt-link>
-              </li>
-              <li class="nav-item">
-                <nuxt-link class="nav-link" to="/projects">Projects</nuxt-link>
-              </li>
-              <li class="nav-item">
-                <nuxt-link class="nav-link" to="/about">About Me</nuxt-link>
-              </li>
-              <li class="nav-item">
-                <nuxt-link class="nav-link" to="/contact">Contact</nuxt-link>
-              </li>
+            <li class="nav-item">
+              <nuxt-link class="nav-link" to="/">Home</nuxt-link>
+            </li>
+            <li class="nav-item">
+              <nuxt-link class="nav-link" to="/projects">Projects</nuxt-link>
+            </li>
+            <li class="nav-item">
+              <nuxt-link class="nav-link" to="/about">About Me</nuxt-link>
+            </li>
+            <li class="nav-item">
+              <nuxt-link class="nav-link" to="/contact">Contact</nuxt-link>
+            </li>
           </b-navbar-nav>
         </b-collapse>
       </b-navbar>
     </div>
-    <!-- <ul class="nav justify-content-center">
-      <li class="nav-item">
-        <nuxt-link class="nav-link" to="/">Home</nuxt-link>
-      </li>
-      <li class="nav-item">
-        <nuxt-link class="nav-link" to="/projects">Projects</nuxt-link>
-      </li>
-      <li class="nav-item">
-        <nuxt-link class="nav-link" to="/about">About Me</nuxt-link>
-      </li>
-      <li class="nav-item">
-        <nuxt-link class="nav-link" to="/contact">Contact</nuxt-link>
-      </li>
-    </ul>-->
+    <!-- <ul class="nav justify-content-center">  -->
   </div>
 </template>
 
@@ -53,6 +40,11 @@ export default {};
   }
   a:hover {
     filter: brightness(80%);
+  }
+}
+@media (max-width: 719px) {
+  #navbar ul {
+    text-align: end;
   }
 }
 </style>

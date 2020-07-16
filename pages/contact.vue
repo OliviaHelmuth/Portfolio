@@ -3,7 +3,7 @@
     <navbar id="navbar2"></navbar>
     <div class="container text-center centered-container" id="contactContainer">
       <div class="animate__animated animate__rollIn">
-        <img id="myself" src="../pictures/me.jpg" alt="a picture of myself" />
+        <img id="myself" src="../pictures/me-min.jpg" alt="a picture of myself" />
       </div>
       <div id="link-container">
         <a href="https://www.linkedin.com/in/olivia-h-a184731a3/" target="_blank">
