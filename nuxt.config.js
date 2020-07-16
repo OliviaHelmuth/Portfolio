@@ -22,13 +22,14 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
     ]
   },
   /*
   ** Global CSS
   */
   css: [
+    "~/node_modules/animate.css/animate.min.css"
   ],
   /*
   ** Plugins to load before mounting the App
@@ -45,7 +46,21 @@ export default {
   ** Nuxt.js dev-modules
   */
   buildModules: [
+    '@nuxtjs/style-resources',
+    '@nuxtjs/fontawesome'
   ],
+  styleResources: {
+    scss: ['~/assets/scss/*.scss']
+  },
+
+  // font awesome settings
+  fontawesome: {
+    icons: {
+      solid: true,
+      brands: true,
+    },
+  },
+
   /*
   ** Nuxt.js modules
   */

@@ -1,0 +1,11 @@
+* {
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+}
+.centered-container {
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 78px);
+  min-height: 500px;
+  justify-content: center;
+}

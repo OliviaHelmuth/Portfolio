@@ -1,45 +1,58 @@
 <template>
-    <div id="navbar">
-      <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link active" href="./">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./projects">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./contact">Contact</a>
-        </li>
-      </ul>
+  <div id="navbar">
+    <div>
+      <b-navbar toggleable="sm" type="light">
+        <b-navbar-toggle target="nav-text-collapse"></b-navbar-toggle>
+        <b-collapse id="nav-text-collapse" is-nav>
+          <b-navbar-nav align="center">
+              <li class="nav-item">
+                <nuxt-link class="nav-link" to="/">Home</nuxt-link>
+              </li>
+              <li class="nav-item">
+                <nuxt-link class="nav-link" to="/projects">Projects</nuxt-link>
+              </li>
+              <li class="nav-item">
+                <nuxt-link class="nav-link" to="/about">About Me</nuxt-link>
+              </li>
+              <li class="nav-item">
+                <nuxt-link class="nav-link" to="/contact">Contact</nuxt-link>
+              </li>
+          </b-navbar-nav>
+        </b-collapse>
+      </b-navbar>
     </div>
+    <!-- <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <nuxt-link class="nav-link" to="/">Home</nuxt-link>
+      </li>
+      <li class="nav-item">
+        <nuxt-link class="nav-link" to="/projects">Projects</nuxt-link>
+      </li>
+      <li class="nav-item">
+        <nuxt-link class="nav-link" to="/about">About Me</nuxt-link>
+      </li>
+      <li class="nav-item">
+        <nuxt-link class="nav-link" to="/contact">Contact</nuxt-link>
+      </li>
+    </ul>-->
+  </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style lang="scss">
-$light: #ebf3ea;
-$light2: #ffffff;
-$green: #9eb294;
-$rose: #e38b9c;
-* {
-  font-family: "Raleway", sans-serif;
-  box-sizing: border-box;
-}
 #navbar {
   padding: 1rem 0;
   background-color: $light;
   a {
     color: $rose;
-    font-size: 1.8rem;
+    font-size: $font-large;
     margin: 0 2rem;
   }
+  a:hover {
+    filter: brightness(80%);
+  }
 }
-
 </style>
