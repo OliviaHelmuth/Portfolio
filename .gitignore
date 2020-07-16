@@ -2,4 +2,3 @@ node_modules/
 .DS_Store
 .nuxt/
 dist/
-.nuxt/App.js
