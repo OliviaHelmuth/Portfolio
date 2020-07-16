@@ -35,7 +35,7 @@ export default {};
     position: absolute;
     margin-left: 0;
     top: -107px;
-    right: 4rem;
+    right: 3rem;
     z-index: 0;
   }
   p {

@@ -1,8 +1,18 @@
 # Portfolio
 
+## <a href="https://olivia-helmuth-portfolio.netlify.app/" target="_blank">Live Demo</a>
+
+my personal responsive
+
 ## Build Setup
 
 ```bash
+# clone repository
+$ git clone https://github.com/OliviaHelmuth/Portfolio.git
+
+# change into directory
+$ cd MarsWeatherApp
+
 # install dependencies
 $ yarn install
 

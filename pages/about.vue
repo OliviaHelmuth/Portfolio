@@ -4,16 +4,18 @@
     <div class="centered-container">
       <div class="custom-container2">
         <div id="aboutMeText" class="jumbotron">
-          <h4 class="animate__animated">Nice to see you here !</h4>
+          <h4>Nice to see you here !</h4>
+          <hr class="my-4" />
           <p>
             I'm a web developer based in Berlin and I create web applications and websites.
             Before I started programming I worked as a tech supporter at AVM, you can also take
             a look at me in the video below.
             <br />Technologies I use are HTML, CSS(SASS), Git and JavaScript and as frameworks
             I use Bootstrap, VueJS and NuxtJS.
+            <br />
           </p>
         </div>
-        <div id="youtube">
+        <div id="youtube" class="animate__animated animate__zoomInRight">
           <iframe
             width="395"
             height="222"
@@ -47,12 +49,13 @@ export default {};
   z-index: 0;
   border-radius: 30px;
   background-color: $light2;
+  padding: 2rem;
 }
 #youtube {
   position: absolute;
   z-index: 1;
   top: 14rem;
-  right: -11rem;
+  right: -15rem;
   overflow: hidden;
   iframe {
     border-radius: 30px;
