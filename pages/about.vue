@@ -3,7 +3,7 @@
     <navbar></navbar>
     <div class="centered-container">
       <div class="custom-container2">
-        <div id="aboutMeText" class="jumbotron">
+        <div id="aboutMeText" class="jumbotron animate__animated animate__fadeInTopLeft">
           <h4>Nice to see you here !</h4>
           <hr class="my-4" />
           <p>
@@ -15,7 +15,7 @@
             <br />
           </p>
         </div>
-        <div id="youtube" class="animate__animated animate__zoomInRight">
+        <div id="youtube" class="animate__animated animate__fadeInBottomRight">
           <iframe
             width="395"
             height="222"

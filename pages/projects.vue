@@ -10,7 +10,7 @@
         </div>
         <div class="box item-b animate__animated animate__fadeInDownBig">
           <a href="https://oh-marsweatherapp.netlify.app/" target="_blank">
-            <img class="image" src="./../pictures/mars-min.png" alt="mars picture" />
+            <img class="image" src="./../pictures/mars2-min.png" alt="mars picture" />
           </a>
         </div>
         <div class="box item-c animate__animated animate__fadeInUpBig">
@@ -46,7 +46,8 @@ export default {};
   }
 }
 .image {
-  max-width: 100%;
+  max-width: 101%;
+  border-radius: 10px;
 }
 .item-a {
   background-color: $light2;
@@ -95,7 +96,7 @@ export default {};
     transform: scale(1);
     filter: blur(0px);
     opacity: 1;
-    box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.500);
+    box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.5);
   }
 }
 @media (max-width: 800px) {
