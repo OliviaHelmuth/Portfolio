@@ -39,6 +39,7 @@ export default {};
   position: relative;
   padding: 0 4rem;
   max-width: 700px;
+  max-height: 700px;
 }
 #aboutWrapper {
   background-color: $light;
