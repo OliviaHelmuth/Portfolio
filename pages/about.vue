@@ -40,10 +40,10 @@ export default {};
   padding: 0 4rem;
   max-width: 700px;
   max-height: 700px;
+  padding-bottom: 10rem;
 }
 #aboutWrapper {
   background-color: $light;
-  padding-bottom: 5rem;
 }
 #aboutMeText {
   position: relative;
@@ -56,15 +56,13 @@ export default {};
   position: absolute;
   z-index: 1;
   top: 14rem;
-  right: -15rem;
+  right: -11rem;
   overflow: hidden;
   iframe {
+    background-color: $green;
     border-radius: 30px;
     overflow: hidden;
   }
-}
-#nav-text-collapse {
-  justify-content: center;
 }
 @media (max-width: 1080px) {
   #youtube {

@@ -21,7 +21,6 @@
         </b-collapse>
       </b-navbar>
     </div>
-    <!-- <ul class="nav justify-content-center">  -->
   </div>
 </template>
 
@@ -46,5 +45,8 @@ export default {};
   #navbar ul {
     text-align: end;
   }
+}
+#nav-text-collapse {
+  justify-content: center;
 }
 </style>

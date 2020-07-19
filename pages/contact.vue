@@ -3,7 +3,7 @@
     <navbar id="navbar2"></navbar>
     <div class="container text-center centered-container" id="contactContainer">
       <div class="animate__animated animate__rollIn">
-        <img id="myself" src="../pictures/me2-min.png" alt="a picture of myself" />
+        <img id="myself" src="../pictures/me2-min2.jpg" alt="a picture of myself" />
       </div>
       <div id="link-container">
         <a href="https://www.linkedin.com/in/olivia-h-a184731a3/" target="_blank">
@@ -38,6 +38,7 @@ export default {};
   }
 }
 #myself {
+  background-color: $green;
   height: 15rem;
   border-radius: 50%;
   border: solid 2px $green;
