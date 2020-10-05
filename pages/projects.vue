@@ -5,22 +5,41 @@
       <div id="container">
         <div class="box item-a animate__animated animate__fadeInLeftBig">
           <a href="https://oh-calculator.netlify.app/index2" target="_blank">
-            <img class="image calc-img" src="./../pictures/calc.jpg" alt="calc picture" />
+            <img
+              class="image calc-img"
+              src="./../pictures/calc.jpg"
+              alt="calc picture"
+            />
           </a>
         </div>
         <div class="box item-b animate__animated animate__fadeInDownBig">
           <a href="https://oh-marsweatherapp.netlify.app/" target="_blank">
-            <img class="image" src="./../pictures/mars2-min.jpg" alt="mars picture" />
+            <img
+              class="image"
+              src="./../pictures/mars2-min.jpg"
+              alt="mars picture"
+            />
           </a>
         </div>
         <div class="box item-c animate__animated animate__fadeInUpBig">
-          <a href="https://oh-coronawebsite.netlify.app/index1.1" target="_blank">
-            <img class="image" src="./../pictures/corona.jpg" alt="website picture" />
+          <a
+            href="https://oh-coronawebsite.netlify.app/index1.1"
+            target="_blank"
+          >
+            <img
+              class="image"
+              src="./../pictures/corona.jpg"
+              alt="website picture"
+            />
           </a>
         </div>
         <div class="box item-d animate__animated animate__fadeInRightBig">
           <a href="https://oh-snake.netlify.app/snake.html" target="_blank">
-            <img class="image" src="./../pictures/snake.jpg" alt="snake picture" />
+            <img
+              class="image"
+              src="./../pictures/snake.jpg"
+              alt="snake picture"
+            />
           </a>
         </div>
       </div>
@@ -33,13 +52,20 @@ export default {};
 </script>
 
 <style lang="scss">
+@media (max-width: 575px) {
+  #navbar2 {
+    a {
+      margin: 0;
+    }
+  }
+}
 #navbar2 {
   padding: 1rem 0;
   background-color: $light2;
   a {
     color: $rose;
     font-size: $font-large;
-    margin: 0 2rem;
+    margin: 0rem;
   }
   a:hover {
     filter: brightness(80%);

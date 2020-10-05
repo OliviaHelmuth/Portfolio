@@ -25,6 +25,13 @@ export default {};
 </script>
 
 <style lang="scss">
+@media (max-width: 575px) {
+  #navbar2 {
+    a {
+      margin: 0;
+    }
+  }
+}
 #navbar2 {
   padding: 1rem 0;
   background-color: white;
