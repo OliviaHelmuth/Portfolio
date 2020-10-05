@@ -41,6 +41,18 @@ export default {};
     filter: brightness(80%);
   }
 }
+#navbar2 {
+  padding: 1rem 0;
+  background-color: white;
+  a {
+    color: $rose;
+    font-size: $font-large;
+    margin: 0 2rem;
+  }
+  a:hover {
+    filter: brightness(80%);
+  }
+}
 @media (max-width: 719px) {
   #navbar ul {
     text-align: end;
@@ -48,6 +60,13 @@ export default {};
 }
 @media (max-width: 575px) {
   #navbar {
+    a {
+      margin: 0;
+    }
+  }
+}
+@media (max-width: 575px) {
+  #navbar2 {
     a {
       margin: 0;
     }

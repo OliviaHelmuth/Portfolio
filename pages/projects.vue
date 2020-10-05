@@ -52,25 +52,6 @@ export default {};
 </script>
 
 <style lang="scss">
-@media (max-width: 575px) {
-  #navbar2 {
-    a {
-      margin: 0;
-    }
-  }
-}
-#navbar2 {
-  padding: 1rem 0;
-  background-color: $light2;
-  a {
-    color: $rose;
-    font-size: $font-large;
-    margin: 0rem;
-  }
-  a:hover {
-    filter: brightness(80%);
-  }
-}
 .image {
   max-width: 101%;
   border-radius: 10px;
