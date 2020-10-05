@@ -2,7 +2,7 @@
 
 ## <a href="https://olivia-helmuth-portfolio.netlify.app/" target="_blank">Live Demo</a>
 
-my personal responsive
+my personal responsive Website
 
 ## Build Setup
 

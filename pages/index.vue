@@ -6,7 +6,7 @@
         <div class="jumbotron my-content animate__animated animate__fadeInLeftBig">
           <h1 class="display-6 animate__animated animate__fadeInLeftBig">Hello, world!</h1>
           <hr class="my-4" />
-          <p class="animate__animated animate__fadeInLeftBig">I'm Olivia a frontend developer and tech enthusiast</p>
+          <p class="animate__animated animate__fadeInLeftBig">I'm Olivia a Web Developer and tech enthusiast</p>
         </div>
         <div class="jumbotron custom-pink animate__animated animate__fadeInRightBig"></div>
       </div>

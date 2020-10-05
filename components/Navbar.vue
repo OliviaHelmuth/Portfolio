@@ -46,6 +46,13 @@ export default {};
     text-align: end;
   }
 }
+@media (max-width: 575px) {
+  #navbar {
+    a {
+      margin: 0;
+    }
+  }
+}
 #nav-text-collapse {
   justify-content: center;
 }

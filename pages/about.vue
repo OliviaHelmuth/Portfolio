@@ -1,17 +1,23 @@
 <template>
   <div id="aboutWrapper">
     <navbar></navbar>
-    <div class="centered-container">
+    <div class="centered-container" id="about-me-height">
       <div class="custom-container2">
-        <div id="aboutMeText" class="jumbotron animate__animated animate__fadeInTopLeft">
+        <div
+          id="aboutMeText"
+          class="jumbotron animate__animated animate__fadeInTopLeft"
+        >
           <h4>Nice to see you here !</h4>
           <hr class="my-4" />
           <p>
-            I'm a web developer based in Berlin and I create web applications and websites.
-            Before I started programming I worked as a tech supporter at AVM, you can also take
-            a look at me in the video below.
-            <br />Technologies I use are HTML, CSS(SASS), Git and JavaScript and as frameworks
-            I use Bootstrap, VueJS and NuxtJS.
+            I'm a Web Developer based in Berlin and I create Web Applications
+            and Websites. Before I started programming I worked for Germany's
+            biggest home networking company AVM in Tech Support and I
+            represented the company at their entrance.
+            <br />Technologies I use for the frontend are HTML, CSS(SASS), Git,
+            JavaScript and as frameworks I use VueJS and NuxtJS and a variety of
+            CSS franeworks. As for the backend I use Python, Django and Django
+            REST framework.
             <br />
           </p>
         </div>
@@ -55,7 +61,7 @@ export default {};
 #youtube {
   position: absolute;
   z-index: 1;
-  top: 14rem;
+  top: 18rem;
   right: -11rem;
   overflow: hidden;
   iframe {
@@ -81,6 +87,12 @@ export default {};
   }
   #aboutWrapper {
     padding-bottom: 0;
+  }
+}
+@media (max-width: 830px) {
+  #about-me-height {
+    height: 100%;
+    padding-bottom: 5rem;
   }
 }
 </style>
